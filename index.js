@@ -64,7 +64,11 @@ function CemberinCevresi(/* kodlar buraya */) {
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
-function CemberinAlani(/* kodlar buraya */) {
+function CemberinAlani(yaricap) {
+  const pi = 3.14159
+  const alan = pi * yaricap * yaricap;
+  console.log(CemberinAlani(15));
+
   /* kodlar buraya */
 }
 
